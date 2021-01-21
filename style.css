@@ -7,17 +7,17 @@
 body {
     margin: 10px;
     font-family: 'Merriweather', serif;
-    background-image: url(images/backgrounds/subtle_white_mini_waves.jpg);
+    color:#6E3326;
+    background-image: url(images/backgrounds/double-bubble-outline.png);
   }
   
   header {
     background-color:#FFB4A3;
-    background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
     margin-bottom: 40px;
   }
   
   .logo {
-    font-family:'Oswald', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-size: 60px;
     color: #6E3326;
     text-align: center;
@@ -25,8 +25,30 @@ body {
     margin: 0;
     padding: 20px 0 0 0;
   }
+
+  div.textborder {
+    width: auto;
+    padding: 20px;
+    background-color: #f8c3b7;
+    border-radius: 20px;
+    -moz-border-radius: 15px;
+  }
   
+  div.textborder2 {
+    width: auto;
+    padding: 55px;
+    background-color: #ededed;
+    border-radius: 20px;
+    -moz-border-radius: 15px;
+  }
   
+  div.textborder3 {
+    width: auto;
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 20px;
+    -moz-border-radius: 15px;
+  }
   /* ---  Navigation --- */
   
   header nav {
@@ -49,6 +71,7 @@ body {
     color: #6E3326;
     text-decoration: none;
     padding: 0 20px 0 0;
+    font-size: 25px;
     font-family: 'Architects Daughter', cursive;
   }
   
@@ -117,9 +140,9 @@ body {
     font-size: 20px;
     font-family: 'Architects Daughter', cursive;
     font-weight: 500;
-    color:#FF8A70;
+    color:#dd5b3d;
   }
-  
+
   p {
    font-family: 'Merriweather', serif;
    line-height: 1.5em;
@@ -131,10 +154,10 @@ body {
       text-decoration: none;	
   }
   
-  main  a:link { color: #38786a; }
-  main  a:visited { color: #38786a; }
-  main  a:hover { color: #403933; }
-  a:active { color: #403933; }
+  main a:link { color:#c0621f; }
+  main a:visited { color: #a0521a;}
+  main a:hover { color: #e79d69;}
+  a:active { color: #f0c1a0; }
   
   
   a:hover {

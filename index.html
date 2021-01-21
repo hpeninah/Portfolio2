@@ -5,9 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Hannah Mulato | Software Developer | Portfolio</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
-	 rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -34,27 +31,32 @@
 					<img src="images\home\IMG_20190204_153607.jpg" alt="Hannah Mulato - Profile Photo" class="image-enhanced"> 
 				</div>
 				<div class="item">
+					<div class="textborder2">
 					<h1>Hi, I'm Hannah Mulato!</h1>
 					<p>I'm a software developer student living in Germantown, Maryland.</p>
-                    <p>I wanted to let you all know me better by giving you an introduction on what I know. On this site, I will share projects and skills that I have developed in class and free time.</p>
+					<p>I wanted to let you all know me better by giving you an introduction on what I know. On this site, I will share projects and skills that I have developed in class and free time.</p>
+					</div>
                 </div>
 			</div>
     </section>
 
     <!-- About me -->
-		<section class="dark-background">
+	<section class="dark-background">
       <h2>About me</h2>
-      <div class="group">
+    <div class="group">
         <div class="item item-double">
+			<div class="textborder">
           <p>After graduating college I became interested in coding and software development. While I continue to have interest in Biotechnology, I believe that having knowledge in software development can boost my career.</p>
 		  <p>One of my greatest hobbies is Volleyball and I am currently coaching at a local high school. It is a passion that has evolved as I enjoy teaching others how to play.</p>
 		  <p>I've started my journey to becoming a software developer with the resources <a href="https://www.thinkful.com">Thinkful</a> provides and am excited to see what I can learn. </p>
           <p>If you're looking to hire a new developer or interested in exchanging ideas please don't hesitate to reach out. I am eager to work with others to build amazing software.</p>
+			</div>
 		</div>
         <div class="item">
-<img src="images/about/volleyball.jpg" alt="Hannah Mulato - Volleyball" class="image-enhanced"> 
-      </div>
-		</section>
+			<img src="images/about/volleyball.jpg" alt="Hannah Mulato - Volleyball" class="image-enhanced"> 
+		</div>
+	</div>
+	</section>
     
 
     <!-- Portfolio -->
@@ -62,27 +64,41 @@
 			<h2>Portfolio</h2>
 			<div class="group">
 				<div class="item">
-          <img src="images/portfolio/tic-tac-toe.jpg" alt="Tic-Tac-Toe App - Hannah Mulato" class="rounded">
-          <h3>Tic-Tac-Toe App</h3>
-					<p>This is a simple Tic-Tac-Toe App I built. This was one of the first individual projects I've done with Javascript, CSS, and HTML.</p>
+					<div class="textborder3">
+          			<img src="images/portfolio/tic-tac-toe.jpg" alt="Tic-Tac-Toe App - Hannah Mulato" class="rounded">
+					 	 <h3>Tic-Tac-Toe App</h3>
+						  <p>This is a simple Tic-Tac-Toe App I am currently building. This is the first individual project I am currently doing with Javascript, CSS, and HTML.
+							There is currently no working browser site for this project yet but the repository can be viewed <a href="https://github.com/hpeninah/tic_tac-toe.git">here</a>.
+						</p>
+					</div>
 				</div>
 				<div class="item">
-          <img src="images/portfolio/library.jpg" alt="Library Project - Hannah Mulato" class="rounded">
-          <h3>Library Project</h3>
-					<p>This is the Library Project that started my journey in individual codiing. This project focuses on Javascript and the use of advanced functions and methods.</p>
+					<div class="textborder">
+          			<img src="images/portfolio/library.jpg" alt="Library Project - Hannah Mulato" class="rounded">
+          				<a href="https://hpeninah.github.io/project-local-library/"><h3>Library Project</h3></a>
+						<p>This is the Library Project that started my journey in coding. This project focuses on Javascript and the use of its advanced functions and methods.
+							Click above to find the browser site for this project. The repository for this project can be viewed <a href="https://github.com/hpeninah/project-local-library.git">here</a>.
+						</p>
+					</div>
 				</div>
 			</div>
-      <div class="group">
+      		<div class="group">
 				<div class="item">
-          <img src="images/portfolio/constellation.jpg" alt="Constellations Project- Hannah Mulato" class="rounded">
-          <h3>Constellations Project</h3>
-					<p>This project uses Javascript and shows client-server relations along with how promises are implemented. </p>
+					<div class="textborder">
+          			<img src="images/portfolio/decoder.jpg" alt="Decoder Ring Project - Hannah Mulato" class="rounded">
+        				<a href="https://hpeninah.github.io/Project_Decoder_Ring/"><h3>Decoder Ring Project</h3></a>
+						<p>This project focused on Javascript methods to create a program that encodes and decodes according to multiple ciphers, like Caesar's cipher.
+							Click above to find the browser site for this project. The repository for this project can be viewed <a href="https://github.com/hpeninah/Project_Decoder_Ring.git">here</a>.
+						</p>
+					</div>
 				</div>
 				<div class="item">
-          <img src="images/portfolio/decoder.jpg" alt="Decoder Ring Project - Hannah Mulato" class="rounded">
-          <h3>Decoder Ring Project</h3>
-					<p>This project focused on Javascript methods to create a program that encodes and decodes according to multiple ciphers, including Caesar's cipher.</p>
-				</div>
+					<div class="textborder3">
+					<img src="images/portfolio/future projects.jpg" alt="Future projects- Hannah Mulato" class="rounded">
+						<h3>Coming soon!</h3>
+					  <p>More updates on future projects will be posted <a href="https://github.com/hpeninah">here</a>.</p>
+					</div>
+			  </div>
 			</div>
 		</section>
 
@@ -93,8 +109,7 @@
 				<div class="item">
 				<form action="https://formspree.io/f/mleozbgl" method="POST">
           <label for="user-name">Name:</label>
-          <input id="user-name" type="text" name="name">
-
+		  <input id="user-name" type="text" name="name">
           <label for="user-email">Email:</label>
           <input id="user-email" type="text" name="email">
 
@@ -104,14 +119,27 @@
         </form>
 				</div>
 				<div class="item item-double">
-					<p>Phone #: <a href="tel:240-449-7011">240-449-7011</a></p>
-          <p>Email: <a href="mailto:hpenmulato@gmail.com?subject=You%20are%20hired!!">hpenmulato@gmail.com</a><p>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24738.109703068116!2d-77.248832!3d39.19145615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1611156478870!5m2!1sen!2sus" width="600" height="450" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+					<p>Please feel free to <strong>contact</strong> or <strong>follow</strong> me through the following:</p>
+					<ul>
+					  <li><a href="mailto:hpenmulato@gmail.com?subject=Excited%20to%20connect%20with%20you!">hpenmulato@gmail.com</a></li>
+					  <li><a href="tel:240-449-7011">240-449-7011</a></li>
+					  <li><a href="https://www.linkedin.com/in/hannah-mulato-62487173/">LinkedIn</a></li>
+					  <li><a href="https://github.com/hpeninah">GitHub</a></li>
+					</ul>
+           			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24738.109703068116!2d-77.248832!3d39.19145615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1611156478870!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
 				</div>
 			</div>
 		</section>
 	</main>
 
-<footer>
-  <p>© Hannah Mulato</p>
+<footer class="footer">
+	<div>
+		<nav>
+			<p>&copy; 2020 Hannah Mulato</p>
+		</nav>
+	</div>
 </footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
